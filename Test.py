@@ -1,12 +1,12 @@
 import numpy as np
 
-import Exercises
+import numpy_exercises
 
 #Ejercicio 1
 def test_exercise_1():
     array=list([2,2,2,2,2,2,2,2,2,2])
 
-    total_sum, average, squared_array = Exercises.exercise_1(array)
+    total_sum, average, squared_array = numpy_exercises.exercise_1(array)
 
     print("\nEjercicio 1: \n" \
         "Lista usada:" + str(array) + "\n" \
@@ -22,7 +22,7 @@ def test_exercise_2():
     a=list([2,4,6,8])
     b=list([1,3,5,7])
 
-    sum_result, sub_result, mul_result, div_result, a_cubed, b_cubed = Exercises.exercise_2(a,b)
+    sum_result, sub_result, mul_result, div_result, a_cubed, b_cubed = numpy_exercises.exercise_2(a,b)
 
     print("\nEjercicio 2: \n" \
         "Lista a:" + str(a) + "\n" \
@@ -36,7 +36,7 @@ def test_exercise_2():
 
 #Ejercicio 3
 def test_exercise_3():
-    sum_by_rows, sum_by_columns, max_value, matrix = Exercises.exercise_3()
+    sum_by_rows, sum_by_columns, max_value, matrix = numpy_exercises.exercise_3()
 
     print("\nEjercicio 3: \n" \
         "Matriz:\n" + str(matrix) + "\n" \
@@ -49,7 +49,7 @@ def test_exercise_4():
     a=list([1,2,3])
     b=list([4,5,6])
 
-    result = Exercises.exercise_4(a,b)
+    result = numpy_exercises.exercise_4(a,b)
 
     print("\nEjercicio 4: \n" \
         "Lista a:" + str(a) + "\n" \
@@ -60,7 +60,7 @@ def test_exercise_4():
 def test_exercise_5():
     values= list([1,4,9,16,25])
     
-    sqrt_array, log_array, exp_array = Exercises.exercise_5(values)
+    sqrt_array, log_array, exp_array = numpy_exercises.exercise_5(values)
     print("\nEjercicio 5: \n" \
         "Valores usados:" + str(values) + "\n" \
         "Raíz cuadrada: " + str(sqrt_array) + "\n" \
@@ -69,7 +69,7 @@ def test_exercise_5():
 
 #Ejercicio 6
 def test_exercise_6():
-    mean, std_dev, percentile_90, variance, random_numbers = Exercises.exercise_6()
+    mean, std_dev, percentile_90, variance, random_numbers = numpy_exercises.exercise_6()
 
     print("\nEjercicio 6: \n" \
         "Media: " + str(mean) + "\n" \
@@ -79,7 +79,7 @@ def test_exercise_6():
 
 #Ejercicio 7
 def test_exercise_7():
-    greater_than_10, modified_array = Exercises.exercise_7()
+    greater_than_10, modified_array = numpy_exercises.exercise_7()
 
     print("\nEjercicio 7: \n"\
         "Números mayores que 10: " + str(greater_than_10) + "\n"\
@@ -87,7 +87,7 @@ def test_exercise_7():
 
 #Ejercicio 8
 def test_exercise_8():
-    determinant, inverse, eigenvalues, eigenvectors = Exercises.exercise_8()
+    determinant, inverse, eigenvalues, eigenvectors = numpy_exercises.exercise_8()
 
     print("\nEjercicio 8: \n" \
         "Determinante: " + str(determinant) + "\n" \
@@ -97,7 +97,7 @@ def test_exercise_8():
 
 #Ejercicio 9
 def test_exercise_9():
-    solution, Coeficents, eResults = Exercises.exercise_9()
+    solution, Coeficents, eResults = numpy_exercises.exercise_9()
 
     print("\nEjercicio 9: \n" \
         "Coeficientes de la ecuación: " + str(Coeficents) + "\n" \
@@ -106,7 +106,7 @@ def test_exercise_9():
 
 #Ejercicio 10
 def test_exercise_10():
-    elementwise_product, matrix_product, matrix_A, matrix_B = Exercises.exercise_10()
+    elementwise_product, matrix_product, matrix_A, matrix_B = numpy_exercises.exercise_10()
 
     print("\nEjercicio 10: \n" \
         "Matriz A:\n" + str(matrix_A) + "\n" \
