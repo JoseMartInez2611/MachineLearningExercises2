@@ -77,7 +77,8 @@ def exercise_5(df: pd.DataFrame):
 
 
 def exercise_6(df: pd.DataFrame):
-    return df["salario"].head(5)
+    df = df.sort_values("salario", ascending=False)
+    return df.head(3)
 
 
 """"
@@ -90,8 +91,4 @@ def exercise_6(df: pd.DataFrame):
 
 
 def exercise_7(df: pd.DataFrame):
-    return {
-        "average_age": df["edad"].mean(),
-        "max_salary": df["salario"].max(),
-        "person_count": df["nombre"].count(),
-    }
+    return df["edad"].mean(), df["salario"].max(), df["nombre"].count()
