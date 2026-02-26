@@ -51,7 +51,7 @@ def test_exercise_7(df: pd.DataFrame):
 
 
 def run_tests():
-    separator = "//////////////////////////////////////////////"
+    separator = "\n//////////////////////////////////////////////"
     data = {
         "nombre": ["Ana", "Luis", "Carlos", "Marta", "Sofia"],
         "edad": [17, 25, 32, 15, 45],
