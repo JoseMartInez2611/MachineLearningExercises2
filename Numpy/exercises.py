@@ -141,7 +141,7 @@ d) Varianza
 
 def exercise_6():
     # Genera 100 números aleatorios entre 0 y 50
-    random_numbers = np.random.Generator(0, 50, 100)
+    random_numbers = np.random.uniform(0, 50, 100)
 
     # a) Calcula media
     mean = np.mean(random_numbers)
